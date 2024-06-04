@@ -1,10 +1,9 @@
 ﻿import Nav from './Nav';
 
-export default function Shop() {
+export default function Checkout() {
   return (
     <>
       <Nav />
-      <div>Products</div>
       <div>Content</div>
     </>
   );

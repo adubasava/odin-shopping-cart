@@ -1,0 +1,40 @@
+﻿img {
+  width: 100%;
+  height: auto;
+}
+
+.home {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(183, 169, 165);
+  padding: 16px 26px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 2px 6px 6px rgb(132, 152, 179, 0.5);
+}
+
+.btn:hover {
+  background-color: #8498b3;
+  box-shadow: 2px 6px 6px rgb(183, 169, 165, 0.5);
+}
+
+.btntext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.txt {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
