@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <div className={styles.header}>
       <div className={styles.left}>
-        <div>Logo</div>
+        <div>🛒 ABC Store</div>
       </div>
       <div className={styles.right}>
         <Link to="/">Home</Link>
