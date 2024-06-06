@@ -12,7 +12,14 @@
 .right {
   display: flex;
   align-items: center;
+  justify-content: baseline;
   gap: 20px;
+}
+
+.checkout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .left {
@@ -30,6 +37,8 @@ a {
   padding: 10px;
   display: inline-block;
   border-radius: 6px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
 }
 
 a:visited {
@@ -40,4 +49,10 @@ a:focus,
 a:hover {
   background-color: #8498b3;
   box-shadow: 2px 6px 6px rgb(132, 152, 179, 0.5);
+}
+
+span {
+  margin-right: 20px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
 }

@@ -1,9 +1,11 @@
 ﻿import styles from './Home.module.css';
+import Nav from './Nav';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
     <div className={styles.home}>
+      <Nav status="hide" />
       <img src="src/assets/artem-gavrysh-F6-U5fGAOik-unsplash.jpg" alt="" />
       <Link to="/shop">
         <button className={styles.btn}>
