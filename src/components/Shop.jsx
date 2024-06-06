@@ -21,13 +21,17 @@ export default function Shop() {
         <h1>Products</h1>
         <div className={styles.container}>
           <GetData setResults={setResults} />
-          <ProductList
-            results={results}
-            amount={amount}
-            setAmount={setAmount}
-            total={total}
-            setTotal={setTotal}
-          />
+          {results.length > 0 ? (
+            <ProductList
+              results={results}
+              amount={amount}
+              setAmount={setAmount}
+              total={total}
+              setTotal={setTotal}
+            />
+          ) : (
+            <h1>Loading...</h1>
+          )}
         </div>
       </div>
     </>

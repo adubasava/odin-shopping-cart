@@ -1,0 +1,17 @@
+﻿.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 500px;
+  padding: 30px;
+}
+
+.links:focus,
+.links:hover {
+  background-color: white;
+  box-shadow: none;
+  cursor: auto;
+}
