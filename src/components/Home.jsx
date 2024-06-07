@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.home}>
       <Nav status="hide" />
-      <img src="../src/assets/artem-gavrysh-F6-U5fGAOik-unsplash.jpg" alt="" />
+      <img src="src/components/store.jpg" alt="" />
       <Link to="/shop">
         <button className={styles.btn}>
           <div className={styles.btntext}>
