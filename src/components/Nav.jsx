@@ -6,7 +6,7 @@ export default function Nav({ status, amount, setAmount, total, setTotal }) {
   return (
     <div className={styles.header}>
       <div className={styles.left}>
-        <div>🛒 ABC Store</div>
+        <h4>🛒 ABC Store</h4>
       </div>
       <div className={styles.right}>
         <Link to="/">Home</Link>
