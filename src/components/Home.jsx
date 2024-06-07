@@ -1,12 +1,13 @@
 ﻿import styles from './Home.module.css';
 import Nav from './Nav';
 import { Link } from 'react-router-dom';
+import photo from './store.jpg';
 
 export default function Home() {
   return (
     <div className={styles.home}>
       <Nav status="hide" />
-      <img src="src/components/store.jpg" alt="" />
+      <img src={photo} alt="" />
       <Link to="/shop">
         <button className={styles.btn}>
           <div className={styles.btntext}>
